@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 
-df = pd.read_csv("glassdoor_jobs.csv")
+df = pd.read_csv("data/glassdoor_jobs.csv")
 
 #salary_estimate
 df1 = df[df["Salary Estimate"]!="-1"]
@@ -53,7 +53,7 @@ df5["le_sectors"] = le.fit_transform(df5["Sector"])
 
 #removing unnecessary columns
 df6 = df5.copy()
-df6 = df6.drop(["Unnamed: 0", "Salary Estimate", "Company Name", "Size", "Founded", "Industry", "Revenue", "Competitors"], axis=1)
+df6 = df6.drop(["Unnamed: 0", "Salary Estimate", "Company Name", "Founded", "Industry"], axis=1)
 
 
 #reset index
@@ -63,9 +63,5 @@ df6 = df6.reset_index(drop=True)
 job_description = ""
 for i in range(len(df6)) :
     job_description += df6["Job Description"][i]
-
-                                           
-
-                                           
-
-                                           
+    
+df6.to_csv("data/clean_salary_data.csv")
