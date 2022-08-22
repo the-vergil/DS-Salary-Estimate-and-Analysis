@@ -1,5 +1,6 @@
 # DS Salary Estimate and Analysis
 ![Data Science](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/ds.jpg)
+
 In this project we have to estimate the salary of data scientists and apply exploratory data analysis on the dataset.
 
 ## Dataset
