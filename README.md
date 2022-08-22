@@ -53,3 +53,9 @@ The data is collected from Glassdoor.
 
 ### Different types of data roles
 ![Different types of data roles](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/role.png)
+
+### Roles Vs Salaries
+![Roles Vs Salaries](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/rolesVSsalaries.png)
+
+### Sector vs Salary
+![Sector vs Salary](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/sectorvssalary.png)
