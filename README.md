@@ -33,4 +33,23 @@ The data is collected from Glassdoor.
   - Skills are : ['mathematics', 'python', 'r, 'machine learning', 'aws', 'cloud', 'excel']
 
 ## Exploratory Data Analysis
+### Most used words in the job description
 ![Most used words in the job description](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/words.png)
+
+### Word cloud of words
+![Word cloud of words](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/word_cloud.png)
+
+### Number of job openings in different states
+![Number of job openings in different states](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/location.png)
+
+### Company size providing data related roles
+![Company size providing data related roles](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/size.png)
+
+### Type of Ownership of different companies providing data roles
+![Type of Ownership of different companies providing data roles](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/ownership.png)
+
+### Type of Sectors that provide data related roles
+![Type of Sectors that provide data related roles](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/sector.png)
+
+### Different types of data roles
+![Different types of data roles](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/role.png)
