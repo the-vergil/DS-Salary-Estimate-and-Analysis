@@ -1,7 +1,13 @@
 # DS Salary Estimate and Analysis
 ![Data Science](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/ds.jpg)
 
-In this project we have to estimate the salary of data scientists and apply exploratory data analysis on the dataset.
+## Project Overview
+- In this project I have made a tool to predict the salaries of data scientists based on some features which will help data scientists, data analysts and data engineers to negotiate a salary while applying for a job
+- The first part is data cleaning part in which I extracted useful and important features for the prediction of salaries
+- Created new columns for the different skills required in the field of data science
+- Applied nlp techniques on the job description text to find insights from the text data
+- Used different regression techniques like LinearRegression, Lasso Regression and RandomForestRegressor to get the least error while predicting the salaries
+- Applied hyper-parameter techniques to select the best parameters for our model
 
 ## Dataset
 The dataset contains the data about data scientists, data engineers and data analysts roles in USA. 
@@ -57,7 +63,4 @@ The data is collected from Glassdoor.
 ![Different types of data roles](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/role.png)
 
 ### Roles Vs Salaries
-![Roles Vs Salaries](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/rolesVSsalaries.png)
-
-### Sector vs Salary
-![Sector vs Salary](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/sectorvssalary.png)
+![Roles Vs Salaries](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/rolesVSsalaries.png) ![Sector vs Salary](https://github.com/the-vergil/DS-Salary-Estimate-and-Analysis/blob/master/images/sectorvssalary.png)
